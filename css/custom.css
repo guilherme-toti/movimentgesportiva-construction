@@ -1,0 +1,31 @@
+/* ===== START CUSTOMIZING HERE ===== */
+/* ===== CUSTOM STYLES FOR IMAGE BACKGROUND TEMPLATE ===== */
+body.image-bg #image-bg {
+  position: fixed;
+  z-index: -9999;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  background: url('../images/flat-bg.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body.image-bg #image-bg #image-filter {
+  background-color: rgba(0, 0, 0, 0.85);
+  z-index: -499;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+body.image-bg .transparent {
+  background-color: transparent !important;
+}
+body.image-bg .see-through {
+  background-color: rgba(26, 188, 156, 0.3) !important;
+}
